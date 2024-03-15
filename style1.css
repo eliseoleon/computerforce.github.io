@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px 0;
+}
+
+nav {
+    background-color: #333; /* Dark background for navigation bar */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for sections */
+}
+
+section {
+    flex: 1; /* Equal width for sections in a row */
+    max-width: 300px; /* Limit maximum width for each section */
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333; /* Dark gray text */
+}
+
+h2 {
+    font-size: 20px;
+    color: #007acc; /* Blue text for headings */
+}
+
+p {
+    font-size: 16px;
+    color: #666; /* Gray text for paragraphs */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    width: 200px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888; /* Light gray text for footer */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack navigation links vertically */
+    }
+
+    nav a {
+        margin: 10px 0; /* Add spacing between navigation links */
+    }
+
+    .container {
+        flex-direction: column; /* Stack sections vertically on smaller screens */
+        align-items: center; /* Center sections horizontally */
+    }
+
+    section {
+        max-width: 100%; /* Full width for sections on smaller screens */
+    }
+}

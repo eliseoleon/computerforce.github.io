@@ -1,0 +1,55 @@
+      /* Basic styling for the body */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Style for the navigation bar */
+    nav {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+    }
+
+    /* Container for the About page content */
+    .container {
+        max-width: 100%; /* Allow container to take full width on smaller screens */
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Center the page heading */
+    h1 {
+        text-align: center;
+    }
+
+    /* Footer styling */
+    footer {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #888;
+        text-align: center;
+        padding: 43px 0;
+        background-color: #333;
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+        .container {
+            padding: 1rem; /* Decreased padding for smaller screens */
+        }
+    }
